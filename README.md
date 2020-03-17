@@ -17,7 +17,9 @@ open the Terminal
 - cd /Applications/Blender.app/Contents/Resources/2.81/python/bin
 - ./python3.7m -m ensurepip
 - ./python3.7m -m pip install --upgrade pip --user
-- ./python3.7m -m pip install opencv-contrib-python numpy --user
+- ./python3.7m -m pip install opencv-contrib-python==4.1.2.30 numpy --user
+
+Noce `4.1.2.30` is the version which works on Mac at the moment it seems.
 
 ## Windows:
 Open Command Prompt as Administrator
